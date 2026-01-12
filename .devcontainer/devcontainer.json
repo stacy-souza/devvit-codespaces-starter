@@ -1,9 +1,9 @@
 {
   "name": "Devvit Starter",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".devcontainer"
   },
-  "forwardPorts": [3000],
   "postCreateCommand": "npm install",
   "customizations": {
     "vscode": {
@@ -14,3 +14,4 @@
     }
   }
 }
+
