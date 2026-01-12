@@ -1,8 +1,7 @@
 {
   "name": "Devvit Starter",
   "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".devcontainer"
+    "dockerfile": "Dockerfile"
   },
   "postCreateCommand": "npm install",
   "customizations": {
@@ -14,4 +13,5 @@
     }
   }
 }
+
 
