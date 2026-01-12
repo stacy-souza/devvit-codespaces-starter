@@ -1,0 +1,6 @@
+{
+  "name": "My Devvit App",
+  "version": "0.1.0",
+  "description": "A beginner-friendly Devvit starter app",
+  "permissions": ["read", "write"]
+}
